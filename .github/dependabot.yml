@@ -6,10 +6,10 @@
 version: 2
 registries:
   ghcr:
-    type: docker-registry
+    type: docker
     url: ghcr.io
     username: joshjohanning
-    password: ${{ secrets.GITHUB_TOKEN }}
+    password: ${{ secrets.GHEC_TOKEN }}
 updates:
   - package-ecosystem: "" # See documentation for possible values
     directory: "/" # Location of package manifests
