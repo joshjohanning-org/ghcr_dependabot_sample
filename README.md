@@ -1,0 +1,1 @@
+# ghcr_dependabot_sample
