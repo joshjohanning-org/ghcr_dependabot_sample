@@ -7,7 +7,7 @@ version: 2
 registries:
   ghcr:
     type: docker-registry
-    url: ghcr.io
+    url: ghcr.io/joshjohanning-org/docker-build-publish-deploy
     username: joshjohanning
     password: ${{ secrets.GHEC_TOKEN }}
 updates:
